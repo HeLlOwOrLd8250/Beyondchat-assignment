@@ -26,10 +26,13 @@ Prerequisites
 Installation Guide
 
 - To get started, install the required libraries. Open your terminal and run:
+
 |____ pip install praw google-generativeai
 - If you have a requirements.txt file with these dependencies, use: (which i have provided)
+
 |____ pip install -r requirements.txt
 - Update the script with your API credentials (hardcoded for testing; switch to environment variables for security):
+
 |____ export REDDIT_CLIENT_ID=your_client_id
 |____ export REDDIT_CLIENT_SECRET=your_client_secret
 |____ export REDDIT_USER_AGENT="your_user_agent"
@@ -37,6 +40,7 @@ Installation Guide
 
 Usage Guide
 - Run the script in your terminal with:
+
 |____ python reddit_persona_report_generator.py
 
 Step-by-Step Instructions
