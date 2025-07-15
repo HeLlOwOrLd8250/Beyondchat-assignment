@@ -34,8 +34,11 @@ Installation Guide
 - Update the script with your API credentials (hardcoded for testing; switch to environment variables for security):
 
 |____ export REDDIT_CLIENT_ID=your_client_id
+
 |____ export REDDIT_CLIENT_SECRET=your_client_secret
+
 |____ export REDDIT_USER_AGENT="your_user_agent"
+
 |____ export GOOGLE_API_KEY=your_google_api_key
 
 Usage Guide
